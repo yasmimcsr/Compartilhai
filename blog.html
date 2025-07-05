@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compartilhaí - Blog</title>
+  <link rel="stylesheet" href="meu projeto.css" />
+  <style>
+    /* estilos extras só para blog */
+    #content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .blog-section {
+      background-color: #fdf1a9; /* amarelo claro */
+      border-radius: 15px;
+      padding: 25px 20px;
+      margin-bottom: 40px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    }
+
+    .blog-section h2 {
+      color: #86c47c; /* verde do logo */
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    article {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 1px 1px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+      box-shadow: 2px 4px 14px rgba(0,0,0,0.1);
+    }
+
+    article h3 {
+      color: #f7a48b; /* cor pêssego do logo */
+      margin-bottom: 12px;
+    }
+
+    article p {
+      color: #444;
+      line-height: 1.5;
+      font-size: 1rem;
+    }
+
+    .btn-leia-mais {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 15px;
+      background-color: #6da363;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .btn-leia-mais:hover {
+      background-color: #56894a;
+    }
+
+    /* Responsivo */
+    @media (max-width: 600px) {
+      #content {
+        padding: 20px 15px;
+      }
+      article {
+        padding: 12px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="header">
+    <div id="logo">
+      <span class="c1">C</span><span class="c2">o</span><span class="c3">m</span><span class="c4">p</span><span class="c5">a</span><span class="c2">r</span><span class="c3">t</span><span class="c4">i</span><span class="c5">l</span><span class="c2">h</span><span class="c3">a</span><span class="c4">í</span>
+    </div>
+
+    <div id="menu">
+      <a href="index.html">Home</a>
+      <a href="index.html">Regras</a>
+      <a href="blog.html">Blog</a>
+    </div>
+  </div>
+
+  <div id="content">
+
+    <section class="blog-section">
+      <h2>Receitas Sustentáveis</h2>
+
+      <article>
+        <h3>Salada de Grãos e Legumes</h3>
+        <p>Uma receita prática e nutritiva, perfeita para reaproveitar legumes que estão na geladeira. Use grão-de-bico, cenoura, pepino e tomate temperados com azeite, limão e ervas frescas.</p>
+        <a class="btn-leia-mais">Leia mais</a>
+      </article>
+
+      <article>
+        <h3>Sopa de Casca de Abóbora</h3>
+        <p>Não jogue fora as cascas da abóbora! Lave bem e cozinhe junto com cebola, alho e temperos para fazer uma sopa cremosa e saborosa.</p>
+        <a class="btn-leia-mais">Leia mais</a>
+      </article>
+    </section>
+
+    <section class="blog-section">
+      <h2>Dicas para Reaproveitar Alimentos</h2>
+
+      <article>
+        <h3>Composteira Caseira</h3>
+        <p>Transforme restos de frutas, verduras e borra de café em adubo para plantas. Separe um pote pequeno com ventilação e vá adicionando esses resíduos, mexendo de vez em quando.</p>
+        <a class="btn-leia-mais">Leia mais</a>
+      </article>
+
+      <article>
+        <h3>Chá de Casca de Banana para Plantas</h3>
+        <p>Ferva cascas de banana em água por 10 minutos. Deixe esfriar e regue suas plantas para ajudar no crescimento.</p>
+        <a class="btn-leia-mais">Leia mais</a>
+      </article>
+    </section>
+
+  </div>
+
+  <div id="footer">
+    Todos os direitos reservados - YASMIM RODRIGUES
+  </div>
+
+</body>
+</html>

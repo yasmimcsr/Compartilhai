@@ -1,0 +1,77 @@
+/* blog.css */
+
+/* Ajusta o conteúdo do blog */
+#content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Cada bloco "projeto" vira uma seção de blog */
+.projeto {
+  background-color: #fdf1a9; /* amarelo claro suave */
+  border-radius: 15px;
+  padding: 25px 20px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+/* Títulos principais das seções */
+.projeto > h2 {
+  color: #86c47c; /* verde do logo */
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+/* Artigos individuais */
+article {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 14px rgba(0,0,0,0.1);
+}
+
+/* Títulos dos artigos */
+article h3 {
+  color: #f7a48b; /* tom pêssego do logo */
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Texto dos artigos */
+article p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Rodapé */
+#footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #fff3ed;
+  border-top: 1px solid #ddd;
+  font-style: italic;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  #content {
+    padding: 20px 15px;
+  }
+  article {
+    padding: 12px 15px;
+  }
+}

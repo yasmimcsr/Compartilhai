@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+/* HEADER */
+#header {
+  background-color: #fff3ed;
+  padding: 15px;
+  text-align: center;
+   /*og bg color ffdac6*/
+}
+
+#logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#menu a {
+  color: #ffffff;
+  background-color: #f9ad96;
+  padding: 8px 12px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 8px;
+
+ 
+}
+
+#menu a:hover {
+  background-color: #ffffff;
+  color: #86c47c;
+}
+
+/* LOGO cores */
+.c1 { color: #86c47c; }
+.c2 { color: #f7a48b; }
+.c3 { color: #9ec5d3; }
+.c4 { color: #fdd2a9; }
+.c5 { color: #d5c3f2; }
+
+/* amarelinho fdf1a9*/
+
+.imagem {
+  display: block;
+  margin: 30px auto; /* 30px de espaço acima e abaixo */
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* CONTEÚDO */
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* SOBRE O PROJETO */
+.projeto {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+  
+}
+
+li{
+  text-align: left;
+}
+
+
+h2{
+    color: #3c1919;
+    text-align: center;
+    padding: 15px;
+}
+
+h3{
+    color: #3c1919;
+}
+
+/* CAIXAS LADO A LADO */
+#caixas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#left-side, #right-side {
+  width: 250px;
+  min-height: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+#left-side {
+  background-color: #fdf1a9;
+  
+}
+
+#right-side {
+  background-color: #d5c3f2;
+}
+
+#right-side h3{
+     margin-bottom: 40px;
+ 
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #6da363;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6da363;
+}
+
+/* FOOTER */
+#footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
